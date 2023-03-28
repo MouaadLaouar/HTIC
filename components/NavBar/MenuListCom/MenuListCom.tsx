@@ -14,7 +14,6 @@ export const MenuListCom = (props:any) => {
 
   const router = useRouter()
   const { route } = router;
-  console.log(route);
   
 
   return (
