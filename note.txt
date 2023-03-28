@@ -1,0 +1,15 @@
+Member Data = {
+  ID: ,
+  First_Name: ,
+  Laast_Name: ,
+  Email: ,
+  Phone: ,
+  Profile_Picture: ,
+  Role: ,
+  Education: ,
+  Blogs : [
+    BLogs_ID
+  ],
+  Social_Media: []
+
+}

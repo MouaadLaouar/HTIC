@@ -1,0 +1,18 @@
+.CardTeamLink {
+    max-width: 238px;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: none;
+    
+
+    img {
+        height: 75px;
+        width: 75px;
+        border-radius: 50%;
+    }
+}
