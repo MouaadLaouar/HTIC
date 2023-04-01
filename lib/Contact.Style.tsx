@@ -1,6 +1,6 @@
 import { createTheme } from "@mui/material";
 
-export const ContactFormStyle = createTheme({
+const ContactFormStyle = createTheme({
     components: {
         MuiTextField: {
             styleOverrides: {
@@ -20,3 +20,6 @@ export const ContactFormStyle = createTheme({
         }
     }
 })
+
+
+export default ContactFormStyle;

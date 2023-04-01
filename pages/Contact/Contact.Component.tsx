@@ -3,9 +3,10 @@ import Style from './Contact.module.scss';
 import ContactHero from '@/assets/Contact/Contact.png';
 import { TextField, Button } from '@mui/material';
 import { ThemeProvider } from '@mui/material';
-import { ContactFormStyle } from './Contact.Style';
+//import { ContactFormStyle } from './lib/Contact.Style';
+import ContactFormStyle  from '../../lib/Contact.Style';
 import { useState } from 'react';
-import { SendMessage } from './Contact.Helper';
+import { SendMessage } from '../../lib/Contact.Helper';
 
 import { useRouter } from 'next/router';
 
@@ -17,7 +18,7 @@ export default function Contact() {
   const [Message, setMessage] = useState('');
 
   const router = useRouter()
-  const { route } = router
+  const { route } = router                              
   console.log(route)
 
   return (
