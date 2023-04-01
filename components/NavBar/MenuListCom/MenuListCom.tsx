@@ -22,7 +22,7 @@ export const MenuListCom = (props:any) => {
       isMatch ? (
       <>
       {/* mobile version */}
-        <Drawer open={open} onClose={() => setopen(false)} >
+        <Drawer anchor='right' open={open} onClose={() => setopen(false)} >
           <section className={Style.SideBar}>
           <IconButton className={Style.CloseButton} onClick={() => setopen(false)}>
             <CloseIcon />
