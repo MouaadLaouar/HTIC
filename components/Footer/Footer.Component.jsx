@@ -15,7 +15,7 @@ export default function Footer() {
       <div className={ Style.Contact }>
         <h1>Connect with Us</h1>
         <div>
-          { SocialMediaData.map((e:any) => (
+          { SocialMediaData.map((e) => (
               <Link key={ e.Name } href={ e.link }>
                 { e.icon }
               </Link>

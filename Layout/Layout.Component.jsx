@@ -5,11 +5,11 @@ import NavBar from '@/components/NavBar';
 import Footer from '@/components/Footer';
 import { useRouter } from 'next/router';
 
-interface Props {
-    children : any
-}
+// interface Props {
+//     children : any
+// }
 
-const Layout:FC<Props> = ({children}) => {
+const Layout = ({children}) => {
     const router = useRouter();
     const { route } = router;
 

@@ -13,7 +13,7 @@ export default function useGetEvents() {
 
             const snapshots = await getDocs(colRef);
 
-            const docs:any = snapshots.docs.map((doc) => {
+            const docs = snapshots.docs.map((doc) => {
                 const data = doc.data();
 
                 data.id = doc.id;

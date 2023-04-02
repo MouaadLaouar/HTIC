@@ -6,7 +6,7 @@ import Style from './CardTeam.module.scss'
 import imgtest from '@/assets/mouaad.jpg'
 import Image from 'next/image'
 //props.Data.ImgURL
-export default function CardTeam(props:any) {
+export default function CardTeam(props) {
   return (
     <ThemeProvider theme={ CardTeamStyle }>
         <Grid item xs={6} sm={6} md={3} lg={3}>

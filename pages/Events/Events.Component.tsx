@@ -1,6 +1,6 @@
 import Style from './Events.module.scss';
 import {ThemeProvider} from '@mui/material';
-import { EventsStyle } from '../../lib/Events.Style';
+import { EventsStyle } from '../../Helpers/Events.Style';
 import { Typography } from '@mui/material';
 import useGetEvents from '@/hooks/useGetEvents';
 

@@ -4,9 +4,9 @@ import ContactHero from '@/assets/Contact/Contact.png';
 import { TextField, Button } from '@mui/material';
 import { ThemeProvider } from '@mui/material';
 //import { ContactFormStyle } from './lib/Contact.Style';
-import ContactFormStyle  from '../../lib/Contact.Style';
+import ContactFormStyle  from '../../Helpers/Contact.Style';
 import { useState } from 'react';
-import { SendMessage } from '../../lib/Contact.Helper';
+import { SendMessage } from '../../Helpers/Contact.Helper';
 
 import { useRouter } from 'next/router';
 

@@ -12,6 +12,8 @@ const firebaseConfig = {
   measurementId: "G-66F92KGPWN"
 };
 
+//console.log(process.env.API_KEY)
+
 // const firebaseConfig = {
 //   apiKey: process.env.API_KEY,
 //   authDomain: process.env.AUTH_DOMAIN,
@@ -21,6 +23,8 @@ const firebaseConfig = {
 //   appId: process.env.APP_ID,
 //   measurementId: process.env.MEASUREMENT_ID
 // };
+
+
 
 // Initialize Firebase
 

@@ -1,9 +1,9 @@
 import { Button, TextField, Typography } from '@mui/material';
 import React, { useState } from 'react'
 import Style from './Join.module.scss';
-import { JoinStyle } from '../../lib/Join.Style';
+import { JoinStyle } from '../../Helpers/Join.Style';
 import {ThemeProvider} from '@mui/material';
-import { addMember } from '../../lib/Join.Helper';
+import { addMember } from '../../Helpers/Join.Helper';
 import JoinImg from '@/assets/Join/Join.jpg';
 import Image from 'next/image';
 

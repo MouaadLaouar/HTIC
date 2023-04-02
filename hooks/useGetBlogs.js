@@ -9,8 +9,8 @@ export default function useGetBlogs() {
 
     useEffect(() => {
         const getdata = async () => {
-            const data:any = await getDocs(collection(db, "Blogs"));
-            setBlogsData(data.docs.map((e:any) => ({...e.data()})));
+            const data = await getDocs(collection(db, "Blogs"));
+            setBlogsData(data.docs.map((e) => ({...e.data()})));
         }
         getdata();
     },[])

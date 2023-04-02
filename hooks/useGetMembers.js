@@ -9,9 +9,9 @@ export default function useGetMembers() {
   //Members
   useEffect(() => {
     const FetchData = async () => {
-      const data:any = await getDocs(collection(db, 'Members'));
+      const data = await getDocs(collection(db, 'Members'));
 
-      setMembersData(data.docs.map((doc:any) => {
+      setMembersData(data.docs.map((doc) => {
         const data = doc.data();
         data.ID = doc.id;
         return data;

@@ -15,7 +15,7 @@ export default function Team() {
       <section className={ Style.AllTeam }>
         <Grid container spacing={{ xs: 2, md: 3 }} >
           {
-            MembersData.map((data:any) => {
+            MembersData.map((data) => {
               return (
                 <CardTeam Data={data} key={ data.ID }/>
               )

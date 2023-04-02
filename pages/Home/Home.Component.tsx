@@ -6,7 +6,7 @@ import Hero3_1 from '@/assets/Home/Hero3_1.png';
 import Hero3_2 from '@/assets/Home/Hero3_2.png';
 import Image from 'next/image';
 import Link from 'next/link';
-import { logoImg } from '../../lib/Home.Helper';
+import { logoImg } from '../../Helpers/Home.Helper';
 
 
 export default function Home() {

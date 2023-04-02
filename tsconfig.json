@@ -19,6 +19,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "firebase/firebase.confing.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "firebase/firebase.confing.js", "components/Cards/CardsTeam/CardTeam.jsx", "components/Cards/CardsTeam/CardTeam.Style.jsx", "components/Footer/Footer.Component.jsx", "components/Footer/Footer.Helper.jsx", "components/Footer/index.js", "components/NavBar/MenuListCom/MenuListCom.jsx", "components/NavBar/AppBar.Style.jsx", "components/NavBar/index.jsx", "components/NavBar/NavBar.Components.jsx", "components/NavBar/NavBar.Helper.jsx", "admin/dashboard.jsx", "hooks/useGetBlogs.js", "hooks/useGetEvents.js", "hooks/useGetMembers.js", "Layout/Layout.Component.jsx", "pages/Admin/index.jsx", "pages/api/hello.js", "pages/Blogs/Blogs.Component.jsx", "pages/Blogs/index.jsx", "pages/Contact/Contact.Component.jsx", "pages/Contact/Contact.Helper.jsx", "pages/Contact/Contact.Style.jsx", "pages/Contact/index.jsx", "pages/Events/Events.Component.jsx", "pages/Events/Events.Style.jsx", "pages/Events/index.js", "pages/Home/Home.Component.jsx", "pages/Home/Home.Helper.jsx", "pages/Home/index.js", "pages/Join/index.js", "pages/Join/Join.Component.jsx", "pages/Join/Join.Helper.jsx", "pages/Join/Join.Style.jsx", "pages/Team/[id].jsx", "pages/Team/index.js", "pages/Team/Team.Component.jsx", "pages/_app.jsx"],
   "exclude": ["node_modules"]
 }
